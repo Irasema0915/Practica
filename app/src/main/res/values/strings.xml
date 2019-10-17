@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Practica</string>
+    <string name="botonCero">0</string>
+    <string name="botonUno">1</string>
+    <string name="botonDos">2</string>
+    <string name="botonTres">3</string>
+    <string name="botonCuatro">4</string>
+    <string name="botonCinco">5</string>
+    <string name="botonSeis">6</string>
+    <string name="botonSiete">7</string>
+    <string name="botonOcho">8</string>
+    <string name="botonNueve">9</string>
+    <string name="botonSuma">+</string>
+    <string name="botonResta">-</string>
+    <string name="botonMulti">*</string>
+    <string name="botonDivision">/</string>
+    <string name="botonBorrar">C</string>
+    <string name="botonIgual">=</string>
+    <string name="botonPunto">.</string>
+    <string name="llamar">Realiza llamada</string>
+    <string name="camera">Camara</string>
+    <string name="audio">Grabar Audio</string>
+    <string name="contacto">Contactos</string>
+    <string name="calcu">Calculadora</string>
+
+</resources>

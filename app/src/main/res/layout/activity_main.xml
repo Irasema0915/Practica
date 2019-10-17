@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <!--Boton 0-->
+    <Button
+        android:id="@+id/btnCero"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:text="@string/botonCero"
+        android:textSize="28sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="596sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+
+    <!--Boton 1 -->
+    <Button
+        android:id="@+id/btnUno"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonUno"
+        android:textSize="28sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="510sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton 2 -->
+    <Button
+        android:id="@+id/btnDos"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonDos"
+        android:textSize="28sp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="135sp"
+        android:layout_marginTop="510sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton 3 -->
+    <Button
+        android:id="@+id/btnTres"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonTres"
+        android:textSize="28sp"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="510sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+
+    <!--Boton 4 -->
+    <Button
+        android:id="@+id/btnCuatro"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonCuatro"
+        android:textSize="28sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="420sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton 5 -->
+    <Button
+        android:id="@+id/btnCinco"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonCinco"
+        android:textSize="28sp"
+        android:layout_marginStart="135sp"
+        android:layout_marginTop="420sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton 6 -->
+    <Button
+        android:id="@+id/btnSeis"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonSeis"
+        android:textSize="28sp"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="420sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+
+    <!--Boton 7 -->
+    <Button
+        android:id="@+id/btnSiete"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonSiete"
+        android:textSize="28sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="330sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton 8 -->
+    <Button
+        android:id="@+id/btnOcho"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonOcho"
+        android:textSize="28sp"
+        android:layout_marginStart="135sp"
+        android:layout_marginTop="330sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton 9 -->
+    <Button
+        android:id="@+id/btnNueve"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonNueve"
+        android:textSize="28sp"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="330sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton = -->
+    <Button
+        android:id="@+id/btnIgual"
+        android:layout_width="70dp"
+        android:layout_height="150dp"
+        android:text="@string/botonIgual"
+        android:textSize="28sp"
+        android:layout_marginStart="305sp"
+        android:layout_marginTop="507sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton + -->
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="70dp"
+        android:layout_height="155dp"
+        android:text="@string/botonSuma"
+        android:textSize="28sp"
+        android:layout_marginStart="305sp"
+        android:layout_marginTop="330sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton - -->
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonResta"
+        android:textSize="28sp"
+        android:layout_marginStart="305sp"
+        android:layout_marginTop="240sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton * -->
+    <Button
+        android:id="@+id/btnMulti"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonMulti"
+        android:textSize="28sp"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="240sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton / -->
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonDivision"
+        android:textSize="28sp"
+        android:layout_marginStart="135sp"
+        android:layout_marginTop="240sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+    <!--Boton C -->
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonBorrar"
+        android:textSize="28sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="240sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+
+    <!--Boton . -->
+    <Button
+        android:id="@+id/btnPunto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/botonPunto"
+        android:textSize="28sp"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="625sp"
+        android:background="#AD6A6C"
+        android:onClick="pulsa"
+        />
+
+    <EditText
+        android:id="@+id/Numero"
+        android:layout_width="320sp"
+        android:layout_height="130sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="70sp"
+        android:background="@color/pantalla"
+        android:hint="|"
+        />
+
+
+
+
+</RelativeLayout>
